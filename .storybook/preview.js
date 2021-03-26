@@ -12,7 +12,6 @@ addParameters({
     //  prepareForInline,
     disable: false,
     extractComponentDescription: (component, { notes }) => {
-      debugger;
       if (notes) {
         return typeof notes === 'string' ? notes : notes.markdown || notes.text;
       }
