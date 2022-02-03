@@ -9,4 +9,8 @@ module.exports = {
       '@storybook/addon-a11y',
       '@storybook/addon-viewport',
   ],
+  framework: "@storybook/angular",
+  core: {
+      builder: "webpack5",
+  },
 };
